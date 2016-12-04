@@ -9,7 +9,25 @@
  * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
- *= bootstrap
+ * require font-awesome
+ *= require _bootstrap
  *= require_tree .
  *= require_self
  */
+body{
+    padding: 0;
+    margin: 0;
+}
+.header { background: silver;}
+.footer { background: slategrey;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    margin: auto;
+}
+.navbar{font-size: 1.5em}
+.btn {font-size: 1em}
+a {color:brown;}
+
+main h6 {margin: 5% 0;}
