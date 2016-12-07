@@ -60,3 +60,5 @@ gem 'bootstrap-sass-extras'
 gem 'font-awesome-rails'
 #postgreSQL
 gem 'pg'
+
+gem 'activerecord-reset-pk-sequence'
