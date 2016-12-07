@@ -54,6 +54,7 @@ gem 'haml-rails'
 gem 'slim'
 gem 'slim-rails'
 # bootstrap
+gem 'bootstrap-sass'
 gem 'bootstrap-sass-extras'
 # иконки fa-fa
 gem 'font-awesome-rails'
