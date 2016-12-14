@@ -23,6 +23,6 @@ Turnstiles_table
 Type_table - виды турникетов
 
 * id
-* tripods
-* swing
-* full
+* tripods - триподы
+* swing -распошные
+* full - полноростовые
