@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Turnstiles_table
 
-Things you may want to cover:
+* id 			
+* id_Type			- виды турникетов
+* Cube C-01
+* Cube C-02
+* Cube C-03
+* Praktika T-04
+* Praktika T-05
+* Praktika T-06
+* Praktika T-10
+* Praktika T-10H
+* Praktika T-10M
+* price
+* weight
+* size
+* aisle_width      - ширина прохода
+* AC_power         - питание от сети
 
-* Ruby version
 
-* System dependencies
+Type_table - виды турникетов
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* id
+* tripods
+* swing
+* full
