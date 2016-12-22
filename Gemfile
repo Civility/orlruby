@@ -62,3 +62,10 @@ gem 'font-awesome-rails'
 gem 'pg'
 
 gem 'activerecord-reset-pk-sequence'
+
+gem 'rspec-rails'
+
+group :production do
+gem 'rails_12factor'
+  end
+
