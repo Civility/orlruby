@@ -1,0 +1,13 @@
+header.header.navbar.navbar-default.navbar-static-top role='navigation'
+  .container
+    h4.pull-left
+      =' link_to 'Experteese на Ruby_on_Rails', main_index_path
+      =' link_to image_tag("logo.png", size: "50x50", alt: "Ruby"), main_index_path
+    h4.pull-left
+      'rus'
+      'ing'
+    ul.nav.nav-pills.pull-right
+      li =' link_to 'Главная', main_index_path
+      li =' link_to 'Помощь', main_help_path
+      li
+         .btn.btn-default =' link_to 'Воити'
