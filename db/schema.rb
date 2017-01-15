@@ -10,11 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20161207160047) do
+=======
+ActiveRecord::Schema.define(version: 20170114210522) do
+>>>>>>> test
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+<<<<<<< HEAD
   create_table "images", force: :cascade do |t|
     t.string   "name"
     t.string   "file"
@@ -43,6 +48,10 @@ ActiveRecord::Schema.define(version: 20161207160047) do
     t.integer  "user_id"
     t.integer  "image_id"
     t.integer  "value"
+=======
+  create_table "users", force: :cascade do |t|
+    t.string   "name"
+>>>>>>> test
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

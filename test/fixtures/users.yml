@@ -2,6 +2,7 @@
 
 one:
   name: MyString
+<<<<<<< HEAD
   email: MyString
   password: 1
 
@@ -9,3 +10,8 @@ two:
   name: MyString
   email: MyString
   password: 1
+=======
+
+two:
+  name: MyString
+>>>>>>> test
