@@ -46,3 +46,19 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'haml-rails'
+# slim
+gem 'slim'
+gem 'slim-rails'
+# bootstrap
+gem 'bootstrap-sass'
+gem 'bootstrap-sass-extras'
+# иконки fa-fa
+gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.1'
+#postgreSQL
+gem 'pg'
+
+# Лучше отображает ошибки
+gem "better_errors"
+gem "binding_of_caller"
